@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+header{
+    background-color: #0776A0;
+    padding: 20px 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+header nav{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header a{
+    background-color: #FFB600;
+    font-size: 36px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+
+h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding: 0;
+    margin: 35px;
+}
+
+main h2{
+    color: #FF2C00;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 40px;
+}
+
+main ul{
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 24px;
+    list-style-image: url("/pictures/common/маркер.svg");
+}
+
+main ul li{
+    position: relative;
+}
+
+main ul li div{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+section{
+    margin: 0 25px;
+    text-align: center;
+}
+
+section img{
+    height: 250px;
+    margin: 0 15px;
+}
+
+.text-info{
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.text-info>div{
+    width: 596px;
+    display: inline-block;
+}
+
+footer{
+    background-color: #024C68;
+    padding: 21px 36px 21px 79px;
+    color: white;
+    font-size: 24px;
+    margin-top: 58px;
+}
+
+footer div{
+    margin: 15px 0;
+}
+
+.centered-block{
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(50% - 100px);
+    width: 300px;
+    height: 200px;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-bottom-left-radius: 20px;
+}
+
+.centered-block .absolute-exit-btn{
+    position: absolute;
+    right: -20px;
+    top: -16px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 24px;
+    width: 42px;
+}
+
+.centered-block .top, .centered-block .bottom{
+    position: absolute;
+    border-top: 5px solid black;
+    width: 281px;
+}
+
+.centered-block .top{
+    top: -10px;
+    left: 0px;
+}
+
+.centered-block .bottom{
+    bottom: -10px;
+    right: 0px;
+}
